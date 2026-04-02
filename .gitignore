@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.env
+*.tmp
+
+# أوزان كبيرة — ارفع عبر Git LFS أو ضع رابط التحميل في README
+# last.pt
+
+# صور الداتا المحلية (حجم كبير — لا ترفع للـ Git إلا إذا رغبت صراحة)
+data/brain_mri/
+data/brain_mri_split/
+
+# أوزان VGG المدربة (اختياري تجاهل)
+models/*.keras
+models/*.h5
